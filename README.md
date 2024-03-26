@@ -20,7 +20,7 @@ A step by step series of examples that tell you how to get a development environ
 
 1. Clone the repository:
 
-   git clone [https://github.com/SathsaraPSF/Simple-note-taking-application--backend.git]
+         git clone https://github.com/SathsaraPSF/Simple-note-taking-application--backend.git
 
 2. Install dependencies:
 
