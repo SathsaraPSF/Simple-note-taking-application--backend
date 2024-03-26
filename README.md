@@ -1,24 +1,47 @@
-# Note Taking Application - Backend
-    This is the backend server for a simple note-taking application. It provides RESTful APIs to manage notes stored in a MongoDB database.
 
-# Features
-  Add new notes
-  Retrieve all notes
-  Update existing notes
-  Delete notes
+# Backend for Note-Taking Application
 
-## API Endpoints
-    POST /api/note: Add a new note
-    GET /api/note: Retrieve all notes
-    PUT /api/note/:id: Update a note by ID
-    DELETE /api/note/:id: Delete a note by ID
-    
-## Dependencies
-    cors: ^2.8.5
-    dotenv: ^16.4.5
-    express: ^4.19.2
-    mongodb: ^6.5.0
-    mongoose: ^8.2.3
-    
-## Contributing
-  ### Contributions are welcome! Feel free to open issues or submit pull requests.
+This is the backend service for a note-taking application, providing API endpoints for managing notes.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+What things you need to install the software and how to install them:
+
+- Node.js
+- npm
+
+### Installing
+
+A step by step series of examples that tell you how to get a development environment running:
+
+1. Clone the repository:
+
+        git clone [https://github.com/SathsaraPSF/Simple-note-taking-application--backend.git]
+
+2. Install dependencies:
+
+        npm install
+
+### Key Dependencies
+
+- **cors**: Enables Cross-Origin Resource Sharing (CORS) with various options.
+- **dotenv**: Manages environment variables from a `.env` file for secure configuration.
+- **express**: A web framework for Node.js, used to build the server's API.
+- **mongodb**: The official MongoDB driver for Node.js.
+- **mongoose**: An Object Data Modeling (ODM) library for MongoDB and Node.js.
+
+3. Start the server:
+
+    npm start
+
+## Deployment
+
+The backend API is deployed on Render.com, which offers a platform for hosting web services with features like continuous deployment from your repository.
+
+To access the live API, visit: [\[API URL on Render.com\]](https://simple-note-taking-application-backend-1.onrender.com)
+
+For more information on deploying to Render.com, refer to their official documentation: https://docs.render.com
