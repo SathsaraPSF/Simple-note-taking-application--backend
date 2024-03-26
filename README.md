@@ -2,10 +2,10 @@
     This is the backend server for a simple note-taking application. It provides RESTful APIs to manage notes stored in a MongoDB database.
 
 # Features
-  Add new notes
-  Retrieve all notes
-  Update existing notes
-  Delete notes
+      Add new notes
+      Retrieve all notes
+      Update existing notes
+      Delete notes
 
 ## API Endpoints
     POST /api/note: Add a new note
